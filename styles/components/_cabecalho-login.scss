@@ -1,0 +1,129 @@
+.container{
+    background-color: #ffffff;
+    box-shadow: 8px 8px 8px rgba(0,0,0,0.5);
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    margin: 50px auto;
+    border-radius: 10px;
+    padding: 2em;
+    .cabecalho{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 1em;
+        margin-top: 24px;
+        margin-bottom: 24px;
+
+        img{
+            width: 50px;
+        }
+
+        p{
+            text-align: center;
+            color: #2c2c2cb6;
+            font-size: 28px;
+            font-weight: 700;
+        }
+        span{
+            color: rgb(38, 224, 47);
+        }
+    }
+
+    .descricao{
+        margin-bottom: 24px;
+        h1{
+            color: rgb(38, 244, 47);
+            font-weight: 400;
+            font-size: 28px;
+            padding-bottom: 10px;
+        }
+        p{
+            color: #696969;
+        }
+    }
+
+    form{
+        
+        label{
+            display:block;
+            font-size: 20px;
+            margin-bottom: 10px;
+            margin-top: 5px;
+        }
+        .check-box{
+            display: flex;
+            justify-content: baseline;
+        }
+        #email, #senha{
+            width: 90%;
+            padding: 1em;
+            border-radius: 5px;
+            border: 0.5px solid #000;
+
+        }
+        #senha:placeholder{
+            font-size: 23px;
+        }
+        .button{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0.3em;
+            color: #ffffff;
+            font-size: 24px;
+            width: 90%;
+            margin: 0 auto;
+            background-color:  rgb(4, 95, 8);
+            border: none;
+            border-radius: 10px;
+        }
+    }
+    footer{
+        padding: 0.5em;
+        margin: 20px;
+        display: flex;
+        flex-direction: column;
+        h4{
+            text-align: center;
+        }
+        .logos{
+            margin-top: 10px;
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            .google{
+                border: 0.5px solid #0000008f;
+                padding: 0.5em;
+                border-radius: 5px;
+                display: flex;
+                align-items: center;
+                
+
+            }
+            .apple{
+                border: 0.5px solid #0000008f;
+                padding: 0.5em;
+                border-radius: 5px;
+                display: flex;
+                align-items: center;
+                
+            }
+            .facebook{
+                border: 0.5px solid #0000008f;
+                padding: 0.5em;
+                border-radius: 5px;
+                display: flex;
+                align-items: center;
+             
+            }
+            
+        }
+        .conta{
+            display: flex;
+            justify-content: center;
+            padding: 1em;
+            font-size: 23px;
+        }
+    }
+}

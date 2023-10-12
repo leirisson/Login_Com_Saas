@@ -1,0 +1,171 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+html, body {
+  background-color: rgba(221, 221, 221, 0.5215686275);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+  background-color: #ffffff;
+  box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  margin: 50px auto;
+  border-radius: 10px;
+  padding: 2em;
+}
+.container .cabecalho {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1em;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+.container .cabecalho img {
+  width: 50px;
+}
+.container .cabecalho p {
+  text-align: center;
+  color: rgba(44, 44, 44, 0.7137254902);
+  font-size: 28px;
+  font-weight: 700;
+}
+.container .cabecalho span {
+  color: rgb(38, 224, 47);
+}
+.container .descricao {
+  margin-bottom: 24px;
+}
+.container .descricao h1 {
+  color: rgb(38, 244, 47);
+  font-weight: 400;
+  font-size: 28px;
+  padding-bottom: 10px;
+}
+.container .descricao p {
+  color: #696969;
+}
+.container form label {
+  display: block;
+  font-size: 20px;
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+.container form .check-box {
+  display: flex;
+  justify-content: baseline;
+}
+.container form #email, .container form #senha {
+  width: 90%;
+  padding: 1em;
+  border-radius: 5px;
+  border: 0.5px solid #000;
+}
+.container form #senha:placeholder {
+  font-size: 23px;
+}
+.container form .button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.3em;
+  color: #ffffff;
+  font-size: 24px;
+  width: 90%;
+  margin: 0 auto;
+  background-color: rgb(4, 95, 8);
+  border: none;
+  border-radius: 10px;
+}
+.container footer {
+  padding: 0.5em;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.container footer h4 {
+  text-align: center;
+}
+.container footer .logos {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.container footer .logos .google {
+  border: 0.5px solid rgba(0, 0, 0, 0.5607843137);
+  padding: 0.5em;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+.container footer .logos .apple {
+  border: 0.5px solid rgba(0, 0, 0, 0.5607843137);
+  padding: 0.5em;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+.container footer .logos .facebook {
+  border: 0.5px solid rgba(0, 0, 0, 0.5607843137);
+  padding: 0.5em;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+.container footer .conta {
+  display: flex;
+  justify-content: center;
+  padding: 1em;
+  font-size: 23px;
+}/*# sourceMappingURL=style.css.map */
